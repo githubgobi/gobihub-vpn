@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "*.php", "use": "now-php", "config": { "extensions": [ "xml", "json", "curl", "intl" ], "version": "7.3.x" } },
+    { "src": "plugins/*.php", "use": "now-php" },
+    { "src": "templates/*.php", "use": "now-php" },
+    { "src": "vendor/*.php", "use": "now-php" },
+    { "src": "vendor/athlon1600/php-proxy-plugin-bundle/src/*.php", "use": "now-php" },
+    { "src": "vendor/athlon1600/php-proxy/src/*.php", "use": "now-php" },
+    { "src": "vendor/athlon1600/youtube-downloader/src/*.php", "use": "now-php" },
+    { "src": "vendor/composer/*.php", "use": "now-php" },
+    { "src": "vendor/symfony/event-dispatcher/*.php", "use": "now-php" },
+    { "src": "vendor/symfony/event-dispatcher/Debug/*.php", "use": "now-php" },
+    { "src": "vendor/symfony/event-dispatcher/DependencyInjection/*.php", "use": "now-php" },
+    { "src": "vendor/symfony/event-dispatcher/Tests/*.php", "use": "now-php" },
+    { "src": "vendor/symfony/event-dispatcher/Tests/Debug/*.php", "use": "now-php" },
+    { "src": "vendor/symfony/event-dispatcher/Tests/DependencyInjection/*.php", "use": "now-php" }
+  ]
+}
